@@ -1,11 +1,11 @@
-# graphql-fragments-manager
+# gql-fragments-manager
 
-`graphql-fragments-manager` helps with managing fragment dependencies when declaring graphql Queries, Mutations, Subscriptions
+`gql-fragments-manager` helps with managing fragment dependencies when declaring graphql Queries, Mutations, Subscriptions
 
 ## Example:
 
 ```javascript
-import { buildFragment, includeFragments } from 'graphql-fragments-manager'
+import { buildFragment, includeFragments } from 'gql-fragments-manager'
 
 const UserPhotoVersionFragment = buildFragment(
   gql`
